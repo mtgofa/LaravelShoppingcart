@@ -1,12 +1,15 @@
 {
     "name": "mtgofa/shoppingcart",
     "description": "Laravel Shoppingcart",
-    "keywords": ["laravel", "shoppingcart"],
+    "keywords": [
+        "laravel",
+        "shoppingcart"
+    ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rob Gloudemans",
-            "email": "info@robgloudemans.nl"
+            "name": "Mohamed Tarek MTGofa",
+            "email": "info@robMTGofa.nl"
         }
     ],
     "require": {
@@ -21,25 +24,25 @@
     },
     "autoload": {
         "psr-4": {
-            "Gloudemans\\Shoppingcart\\": "src/"
+            "MTGofa\\Shoppingcart\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
+            "MTGofa\\Tests\\Shoppingcart\\": "tests/"
         }
     },
     "suggest": {
-        "gloudemans/notify": "Simple flash notifications for Laravel"
+        "MTGofa/notify": "Simple flash notifications for Laravel"
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
+                "MTGofa\\Shoppingcart\\ShoppingcartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
+                "Cart": "MTGofa\\Shoppingcart\\Facades\\Cart"
             }
         }
     }

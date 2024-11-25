@@ -1,9 +1,9 @@
 <?php
 
-namespace Gloudemans\Shoppingcart;
+namespace MTGofa\Shoppingcart;
 
 use Illuminate\Contracts\Support\Arrayable;
-use Gloudemans\Shoppingcart\Contracts\Buyable;
+use MTGofa\Shoppingcart\Contracts\Buyable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
